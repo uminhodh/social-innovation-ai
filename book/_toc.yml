@@ -1,0 +1,22 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: chapters/sl_with_ai_framework
+  title: Service Learning with AI Framework
+- file: chapters/framework_ai_supported_service_learning
+- file: chapters/for_teachers
+  sections:
+    - file: chapters/for_teachers/preparing_service_learning_activity
+      title: For Teachers - Preparing a Service Learning Activity
+    - file: chapters/for_teachers/practical_guide_teachers
+      title: Prompts Guide
+- file: chapters/for_students
+  sections:
+    - file: chapters/for_students/social_innovation_with_ai_activity
+      title: For Students - Social Innovation with AI Initiative
+    - file: chapters/for_students/practical_guide_students
+      title: Prompts Guide
+
