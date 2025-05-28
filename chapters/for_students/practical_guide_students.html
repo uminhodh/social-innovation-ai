@@ -1,0 +1,836 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Team 2: Social Innovation with AI Initiative &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=87e54e7c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'chapters/for_students/practical_guide_students';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="For Students: Social Innovation with AI Initiative" href="social_innovation_with_ai_activity.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.jpeg" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="../../_static/logo.jpeg" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../intro.html">
+                    Introduction
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../sl_with_ai_framework.html">Service Learning with AI Framework</a></li>
+
+<li class="toctree-l1 has-children"><a class="reference internal" href="../for_teachers.html">Teachers’ point of view</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../for_teachers/preparing_service_learning_activity.html">For teachers: Preparing a Service Learning Activity</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../for_teachers/practical_guide_teachers.html">Team 1: Social Innovation with AI Initiative</a></li>
+
+
+
+
+
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../for_students.html">Students’ point of view</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="social_innovation_with_ai_activity.html">For Students: Social Innovation with AI Initiative</a></li>
+
+
+
+
+
+
+
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Team 2: Social Innovation with AI Initiative</a></li>
+
+
+
+
+
+
+
+
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fchapters/for_students/practical_guide_students.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/chapters/for_students/practical_guide_students.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Team 2: Social Innovation with AI Initiative</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Team 2: Social Innovation with AI Initiative</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-getting-to-know-the-social-institution">Step 1: Getting to know the Social Institution</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-identifying-a-challenge">Step 2: Identifying a challenge</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-optimizing-the-team">Step 3: Optimizing the team</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-brainstorming-for-a-solution">Step 4: Brainstorming for a solution</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-developing-a-plan">Step 5: Developing a plan</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-pitch-your-solution">Step 5: Pitch your solution</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-6-let-s-recap">Step 6: Let’s recap</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-7-creating-a-communication-plan">Step 7: Creating a communication plan</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="team-2-social-innovation-with-ai-initiative">
+<h1>Team 2: Social Innovation with AI Initiative<a class="headerlink" href="#team-2-social-innovation-with-ai-initiative" title="Link to this heading">#</a></h1>
+<blockquote>
+<div><p>Instructions: Each member should use the prompts with ChatGPT individually, but only include in the document the responses that the whole group agrees on.</p>
+</div></blockquote>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-1-getting-to-know-the-social-institution">
+<h1>Step 1: Getting to know the Social Institution<a class="headerlink" href="#step-1-getting-to-know-the-social-institution" title="Link to this heading">#</a></h1>
+<p>Task 1.1: Choose a Social Institution and gather information about on their websites, social media, etc.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Social Institution:</p></th>
+<th class="head text-left"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Paste the relevant information here:</p></td>
+<td class="text-left"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Sources of information:</p></td>
+<td class="text-left"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Task 1.2: Insert the following <em>prompt</em> on ChatGPT</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Use the following information to answer this question about the social institution: 
+What is the mission or primary goal of this social partner?
+Who are the main beneficiaries of their work?
+ Here’s the information we have gathered:
+[Insert here the information above]
+
+</pre></div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-2-identifying-a-challenge">
+<h1>Step 2: Identifying a challenge<a class="headerlink" href="#step-2-identifying-a-challenge" title="Link to this heading">#</a></h1>
+<p><strong>[IF USING SCENARIO 1]</strong> <em>What are some potential challenges this institution might be dealing with? Brainstorm possible issues they could be facing, using the following prompt:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">We</span> <span class="n">are</span> <span class="n">working</span> <span class="n">on</span> <span class="n">a</span> <span class="n">university</span> <span class="n">project</span> <span class="n">involving</span> <span class="n">a</span> <span class="n">social</span> <span class="n">institution</span><span class="o">.</span> <span class="n">Based</span> <span class="n">on</span> <span class="n">what</span> <span class="n">we</span> <span class="n">know</span> <span class="n">about</span> <span class="n">their</span> <span class="n">mission</span> <span class="ow">and</span> <span class="n">activities</span><span class="p">,</span> <span class="n">we</span> <span class="n">want</span> <span class="n">to</span> <span class="n">brainstorm</span> <span class="n">possible</span> <span class="n">challenges</span> <span class="n">the</span> <span class="n">institution</span> <span class="n">might</span> <span class="n">be</span> <span class="n">facing</span><span class="o">.</span>
+<span class="n">Consider</span> <span class="n">areas</span> <span class="n">such</span> <span class="k">as</span><span class="p">:</span>
+<span class="n">Funding</span> <span class="ow">and</span> <span class="n">financial</span> <span class="n">sustainability</span>
+<span class="n">Staffing</span> <span class="ow">or</span> <span class="n">volunteer</span> <span class="n">support</span>
+<span class="n">Reaching</span> <span class="ow">and</span> <span class="n">serving</span> <span class="n">their</span> <span class="n">target</span> <span class="n">community</span>
+<span class="n">Communication</span> <span class="ow">or</span> <span class="n">public</span> <span class="n">awareness</span>
+<span class="n">Legal</span><span class="p">,</span> <span class="n">logistical</span><span class="p">,</span> <span class="ow">or</span> <span class="n">administrative</span> <span class="n">issues</span>
+<span class="n">Technological</span> <span class="n">limitations</span>
+<span class="n">Collaboration</span> <span class="k">with</span> <span class="n">other</span> <span class="n">organizations</span>
+<span class="n">Next</span><span class="p">,</span> <span class="n">identify</span> <span class="n">the</span> <span class="n">top</span> <span class="n">three</span> <span class="n">challenges</span> <span class="n">that</span> <span class="n">someone</span> <span class="k">with</span> <span class="n">our</span> <span class="n">expertise</span> <span class="ow">is</span> <span class="n">uniquely</span> <span class="n">equipped</span> <span class="n">to</span> <span class="n">solve</span><span class="o">.</span>
+
+</pre></div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-3-optimizing-the-team">
+<h1>Step 3: Optimizing the team<a class="headerlink" href="#step-3-optimizing-the-team" title="Link to this heading">#</a></h1>
+<p>Who is in your group, and what unique knowledge and skills does each member contribute based on their academic background? How can each member contribute to the challenge?</p>
+<p><strong>Task 3.1:</strong> List each team member’s name, degree program, relevant skills or expertise, and how they can contribute to the project.</p>
+<p>Group member 1<br />
+Name:<br />
+Degree Program:<br />
+Relevant Skills / Knowledge:<br />
+Potential Contribution to the Challenge:</p>
+<p>Group member 2<br />
+Name:<br />
+Degree Program:<br />
+Relevant Skills / Knowledge:<br />
+Potential Contribution to the Challenge:</p>
+<p>Group member 3<br />
+Name:<br />
+Degree Program:<br />
+Relevant Skills / Knowledge:<br />
+Potential Contribution to the Challenge:</p>
+<p><strong>Task 3.2:</strong> Insert the following <em>prompt</em> on ChatGPT</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>We are working on a team project and would like help assigning roles and tasks. Below is a list of our team members, along with their degree programs and key skills. Based on this information, can you suggest suitable roles or responsibilities for each person that align with their strengths and contribute effectively to the project’s success?
+Here’s the team info:
+[Insert the list here]
+
+
+</pre></div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-4-brainstorming-for-a-solution">
+<h1>Step 4: Brainstorming for a solution<a class="headerlink" href="#step-4-brainstorming-for-a-solution" title="Link to this heading">#</a></h1>
+<p><strong>Task 4.1: Now, focus on brainstorming potential solutions. Use the prompt provided to guide your brainstorming process.</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Considering our academic background in [insert your course/subject here], please guide us in using the SCAMPER technique (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse) to generate 8–10 innovative ideas. These should be adaptations or creative combinations of existing social programs, methods, or tools that are relevant to both the problem and our field of study.
+After generating these SCAMPER-based ideas, help us formulate a set of &#39;How might we…&#39; questions that challenge assumptions about the problem and spark disruptive thinking. These questions should open new perspectives, uncover hidden needs, or invite bold, creative shifts.
+Importantly, please ensure that all suggested ideas are:
+Feasible for us to help implement or prototype as university students
+Relevant to our subject matter and competencies
+Adaptable to the resources, time, and institutional context we are working within
+Context:
+[Insert brief description of the social institution’s challenge here]
+
+
+</pre></div>
+</div>
+<p><strong>Task 4.2: Narrow down the solutions, using the following prompt.</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Perform</span> <span class="n">a</span> <span class="n">detailed</span> <span class="n">SWOT</span> <span class="n">analysis</span> <span class="k">for</span> <span class="n">each</span> <span class="n">proposed</span> <span class="n">solution</span><span class="p">,</span> <span class="n">focusing</span> <span class="n">on</span> <span class="n">long</span><span class="o">-</span><span class="n">term</span> <span class="n">sustainability</span> <span class="ow">and</span> <span class="n">possible</span> <span class="n">unintended</span> <span class="n">consequences</span><span class="o">.</span> <span class="n">Then</span><span class="p">,</span> <span class="n">create</span> <span class="n">a</span> <span class="n">multi</span><span class="o">-</span><span class="n">criteria</span> <span class="n">decision</span> <span class="n">matrix</span> <span class="n">to</span> <span class="n">rank</span> <span class="n">the</span> <span class="n">solutions</span> <span class="n">based</span> <span class="n">on</span> <span class="n">feasibility</span><span class="p">,</span> <span class="n">impact</span><span class="p">,</span> <span class="n">cost</span><span class="p">,</span> <span class="ow">and</span> <span class="n">ethical</span> <span class="n">considerations</span><span class="o">.</span> <span class="n">Use</span> <span class="n">this</span> <span class="n">to</span> <span class="n">select</span> <span class="n">the</span> <span class="n">most</span> <span class="n">balanced</span> <span class="ow">and</span> <span class="n">practical</span> <span class="n">options</span><span class="o">.</span>
+<span class="n">Context</span><span class="p">:</span>
+<span class="p">[</span><span class="n">Insert</span> <span class="n">the</span> <span class="mi">3</span> <span class="n">solutions</span> <span class="n">you</span> <span class="n">have</span> <span class="n">selected</span><span class="p">]</span>
+
+
+</pre></div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-5-developing-a-plan">
+<h1>Step 5: Developing a plan<a class="headerlink" href="#step-5-developing-a-plan" title="Link to this heading">#</a></h1>
+<p>Task 5.1: Let’s create a detailed plan for the solution you’ve selected, guided by the following prompt.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>We are students preparing to implement a solution for a challenge faced by a social institution. Please help us create a detailed and realistic action plan based on the following key elements:
+Objectives &amp; Outcomes – What are our main goals, and how can we define clear, measurable outcomes for our solution?
+Tasks &amp; Timeline – What steps should we follow to implement the solution? Who is responsible for what? Can you help us design a timeline that fits a university project schedule?
+Resources Needed – What materials, approvals, tools, or support will we need?
+Stakeholders &amp; Communication – Who are the key people involved, and how should we communicate with them effectively?
+Risks &amp; Contingencies – What are the possible risks, and how can we prepare backup strategies?
+Monitoring &amp; Evaluation – How can we track progress and assess whether our solution is working as intended?
+Solution description:
+[Insert a short description of the selected solution here]
+
+</pre></div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-5-pitch-your-solution">
+<h1>Step 5: Pitch your solution<a class="headerlink" href="#step-5-pitch-your-solution" title="Link to this heading">#</a></h1>
+<p>Task 7.1: Get ready to share your solution. Prepare a short, compelling pitch script to present it.</p>
+<p>What’s a pitch? A <strong>pitch</strong> is a concise, compelling presentation designed to introduce an idea, product, or service and persuade an audience to take a desired action. It’s about distilling complex information into a short, engaging story that captures attention and generates interest.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>We need help preparing a 3-minute pitch presentation to explain our proposed solution to a challenge faced by a social institution. Please help us structure our pitch using the following key elements:
+Hook (20–30 seconds):
+Start with a compelling fact, story, or question to grab attention. How can we immediately show the importance of the challenge?
+Problem Statement (30 seconds):
+Clearly explain the specific challenge the social institution is facing. Why is it important, and who is affected?
+Proposed Solution (1 minute):
+Present our solution. What is it? How does it work? How does it address the challenge? Emphasize originality, feasibility, and impact.
+Implementation Plan (30 seconds):
+Briefly outline how we plan to carry it out, including logistics, responsibilities, and timeline. Mention any student involvement or collaboration.
+Expected Outcomes &amp; Impact (20–30 seconds):
+What results do we expect? How will this benefit the institution or the community it serves?
+Call to Action or Closing (10–15 seconds):
+End with a strong statement, insight, or invitation—something memorable that reinforces the value of our work.
+Context:
+[Insert a short summary of the challenge and your solution here]
+</pre></div>
+</div>
+<p>Task 7.2: To create a visual presentation, try using <a class="reference internal" href="#https://gamma.app/"><span class="xref myst">Gamma</span></a>. Simply enter a brief description of your project, and it will automatically generate an editable presentation for you.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-6-let-s-recap">
+<h1>Step 6: Let’s recap<a class="headerlink" href="#step-6-let-s-recap" title="Link to this heading">#</a></h1>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Canvas</p></th>
+<th class="head text-left"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Problem Statement</strong></p></td>
+<td class="text-left"><p>Clearly define the problem your solution addresses.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Solution Description</strong></p></td>
+<td class="text-left"><p>Briefly describe the solution your team has developed.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Target Group</strong></p></td>
+<td class="text-left"><p>Who benefits? Describe their characteristics and needs.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Context / Setting</strong></p></td>
+<td class="text-left"><p>Where and under what conditions will your solution be used?</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Expected Impact</strong></p></td>
+<td class="text-left"><p>What positive changes do you anticipate?</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Key Activities</strong></p></td>
+<td class="text-left"><p>What main steps or actions are involved in implementing the solution?</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Innovativeness</strong></p></td>
+<td class="text-left"><p>What makes your solution creative or different?</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Resources Needed</strong></p></td>
+<td class="text-left"><p>What resources, tools, or support does your solution require?</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Challenges &amp; Risks</strong></p></td>
+<td class="text-left"><p>What potential obstacles or risks could affect your solution?</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Teamwork &amp; Roles</strong></p></td>
+<td class="text-left"><p>How did your team collaborate? What were individual roles?</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Evaluation / Success Measures</strong></p></td>
+<td class="text-left"><p>How will you know if your solution works or succeeds?</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Elevator Pitch / Tweet</strong></p></td>
+<td class="text-left"><p>Summarize your solution in one concise, engaging sentence (max 280 characters).</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Task 8.1: Use the following prompt to help you fill out the Solution Canvas.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>We are university students participating in a service-learning project. As part of this project, we’ve partnered with a social institution that faces a real-world challenge. Our goal is to propose a feasible and meaningful solution that we, as students, can help implement or support.
+Please help us fill out our Solution Canvas by guiding us through each section. Feel free to ask us questions, prompt our thinking, or suggest improvements based on what we share.
+Here’s what we need to define:
+Problem Statement – What is the specific challenge the institution is facing that we aim to solve?
+Solution Description – What is our proposed solution, explained clearly and simply?
+Target Group – Who will benefit from our solution? What are their needs or characteristics?
+Context / Setting – In what environment or situation will the solution be used? What constraints or opportunities are present?
+Expected Impact – What positive change do we hope our solution will bring to the institution or community?
+Key Activities – What steps will we take to develop and implement our solution?
+Innovativeness – How is our idea original, adapted, or creative in addressing the challenge?
+Resources Needed – What tools, materials, permissions, or support will we need?
+Challenges &amp; Risks – What potential difficulties could arise, and how might we manage them?
+Teamwork &amp; Roles – What did each team member contribute? How did we collaborate effectively?
+Evaluation / Success Measures – How will we know if our solution works? What will we observe or measure?
+Describe it in a Tweet – Can you help us write a short (280-character) summary or pitch of our solution?
+Use our responses to help us draft a concise, thoughtful, and complete Solution Canvas we can use for our final presentation.
+
+
+</pre></div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-7-creating-a-communication-plan">
+<h1>Step 7: Creating a communication plan<a class="headerlink" href="#step-7-creating-a-communication-plan" title="Link to this heading">#</a></h1>
+<p>Task 7.1: Get ready to share your solution. Prepare a short, compelling pitch script to present it.</p>
+<p>What’s a pitch? A <strong>pitch</strong> is a concise, compelling presentation designed to introduce an idea, product, or service and persuade an audience to take a desired action. It’s about distilling complex information into a short, engaging story that captures attention and generates interest.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>We are university students participating in a service-learning project. As part of this project, we’ve partnered with a social institution that faces a real-world challenge. Our goal is to propose a feasible and meaningful solution that we, as students, can help implement or support.
+Please help us fill out our Solution Canvas by guiding us through each section. Feel free to ask us questions, prompt our thinking, or suggest improvements based on what we share.
+Here’s what we need to define:
+Problem Statement – What is the specific challenge the institution is facing that we aim to solve?
+Solution Description – What is our proposed solution, explained clearly and simply?
+Target Group – Who will benefit from our solution? What are their needs or characteristics?
+Context / Setting – In what environment or situation will the solution be used? What constraints or opportunities are present?
+Expected Impact – What positive change do we hope our solution will bring to the institution or community?
+Key Activities – What steps will we take to develop and implement our solution?
+Innovativeness – How is our idea original, adapted, or creative in addressing the challenge?
+Resources Needed – What tools, materials, permissions, or support will we need?
+Challenges &amp; Risks – What potential difficulties could arise, and how might we manage them?
+Teamwork &amp; Roles – What did each team member contribute? How did we collaborate effectively?
+Evaluation / Success Measures – How will we know if our solution works? What will we observe or measure?
+Describe it in a Tweet – Can you help us write a short (280-character) summary or pitch of our solution?
+Use our responses to help us draft a concise, thoughtful, and complete Solution Canvas we can use for our final presentation.
+
+
+</pre></div>
+</div>
+<p>Task 7.2: Create a visual presentation using Gamma.</p>
+<p>Go to <a class="reference external" href="https://gamma.app"><strong>Gamma</strong></a> and enter a brief description of your project. The platform will automatically generate an editable presentation for you.</p>
+<p>In the <em>Text Content</em> section, choose:<br />
+→ <strong>Condense</strong> → <strong>Detailed</strong></p>
+<p>Then, paste the following <strong>prompt</strong> into the <em>Additional Instructions</em> field.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Generate a 3-minute pitch presentation for a solution to a challenge faced by a social institution. Include:
+Hook – Start with a compelling fact, story, or question.
+
+
+Problem – What is the challenge and who is affected?
+
+
+Solution – What is your idea? How does it work and solve the problem?
+
+
+Implementation – How will you carry it out? Who is involved?
+
+
+Impact – What results do you expect?
+
+
+Closing – End with a strong, memorable statement.
+</pre></div>
+</div>
+<p>Task 7.3: Now that your pitch is ready, it’s time to turn it into a podcast to help share and spread your work more widely.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>We’ve written a 3-minute pitch script for a presentation about our student-led solution to a social challenge faced by an institution. Help us turn this script into a podcast episode that sounds natural, engaging, and concise.
+Please help us:
+Adapt the tone: Make it more conversational and warm, while still sounding clear and confident.
+Add personality: Include short introductions (name/team/course), transitions, and reflections that help the listener connect with us as students.
+Highlight key points from each part of the pitch:
+Hook (attention-grabber)
+Problem statement
+Proposed solution
+Implementation plan
+Expected impact
+Final takeaway or closing message
+Suggest music or sound effects that could enhance the listening experience (optional).
+Make sure it fits within 3 minutes of speaking time (about 400–450 words).
+Ensure the language is accessible to listeners outside academia, including community members or potential partners.
+Here’s our original pitch script:
+[Insert your pitch script here]
+Can you help us restructure and rewrite this into a podcast-ready format?
+
+
+</pre></div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./chapters/for_students"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="social_innovation_with_ai_activity.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">For Students: Social Innovation with AI Initiative</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Team 2: Social Innovation with AI Initiative</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1-getting-to-know-the-social-institution">Step 1: Getting to know the Social Institution</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2-identifying-a-challenge">Step 2: Identifying a challenge</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3-optimizing-the-team">Step 3: Optimizing the team</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-4-brainstorming-for-a-solution">Step 4: Brainstorming for a solution</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-developing-a-plan">Step 5: Developing a plan</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-5-pitch-your-solution">Step 5: Pitch your solution</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-6-let-s-recap">Step 6: Let’s recap</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-7-creating-a-communication-plan">Step 7: Creating a communication plan</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
