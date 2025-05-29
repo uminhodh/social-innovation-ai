@@ -1,4 +1,4 @@
-# Teachers' point of view
+# Guidelines for Teachers
 
 This session supports educators in designing and implementing meaningful Service Learning experiences that are aligned with course objectives, student needs, and institutional resources. It outlines practical strategies and tools to guide teachers through the planning process, ensuring both pedagogical depth and operational feasibility.
 

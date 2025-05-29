@@ -1,4 +1,4 @@
-# Students' point of view
+# Guideline for Students
 
 This session supports students in engaging meaningfully with social challenges through **Service Learning** combined with **Artificial Intelligence**. It provides a clear, step-by-step guide to help students collaborate effectively with social institutions, develop AI-informed solutions, and build skills in teamwork, innovation, and civic engagement.
 

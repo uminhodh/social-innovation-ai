@@ -26,17 +26,21 @@ The learning process includes:
 - Presenting outcomes publicly to communities, educators, and stakeholders  
 - Disseminating results across Arqus universities and social platforms  
 
+[Project Page](https://driving-social-innovation-with-ai-powered-service-learning.webnode.page/)
+
 ---
 ## Partner Institutions
 
 This project brings together a network of engaged universities from across Europe:
 
-- Université Lyon 1  
+- University of Lyon 1  
 - Vilnius University  
 - University of Minho  
 - University of Leipzig  
 - University of Padova  
 - University of Granada  
+
+![University Logo](logos.png)
 
 ---
 

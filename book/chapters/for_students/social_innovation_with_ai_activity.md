@@ -166,7 +166,25 @@ Solution description:
 
 ```
 
-# Step 6: Let's recap
+
+# Step 6: Put it in to action
+Task 6.1: Now that you’ve created an action plan to tackle a challenge identified by the social institution, use the prompt below to guide you through the specific activities involved in putting your plan into practice.
+
+```
+"We’re carrying out a specific activity as part of our service-learning project to support a social institution. Please help us plan and execute this activity effectively. Here's what we need:
+Clarify the goal of this activity: What are we trying to achieve, and how does it connect to the overall challenge we’re addressing?
+Break down the steps we need to follow to carry out this activity smoothly.
+Identify what materials, permissions, or communication are needed (e.g., image rights forms, authorizations, outreach emails).
+Anticipate potential issues or risks during the activity and suggest how to handle them.
+Recommend ways to measure the success or impact of this specific action.
+Give us tips to ensure we’re being respectful and ethical in our interactions with the institution and its community.
+Suggest how we can document the activity (photos, notes, quotes) for reflection and our final presentation.
+Here’s a brief description of the activity we’re doing:
+[Insert description of the activity here]"
+
+```
+# Step 7: Let's recap
+
 
 | Canvas |  |
 | ----- | :---- |
@@ -183,7 +201,8 @@ Solution description:
 | **Evaluation / Success Measures** | How will you know if your solution works or succeeds? |
 | **Elevator Pitch / Tweet** | Summarize your solution in one concise, engaging sentence (max 280 characters). |
 
-Task 6.1: Use the following prompt to help you fill out the Solution Canvas.
+
+Task 7.1: Use the following prompt to help you fill out the Solution Canvas.
 
 ```
 We are university students participating in a service-learning project. As part of this project, we’ve partnered with a social institution that faces a real-world challenge. Our goal is to propose a feasible and meaningful solution that we, as students, can help implement or support.
@@ -202,12 +221,10 @@ Teamwork & Roles – What did each team member contribute? How did we collaborat
 Evaluation / Success Measures – How will we know if our solution works? What will we observe or measure?
 Describe it in a Tweet – Can you help us write a short (280-character) summary or pitch of our solution?
 Use our responses to help us draft a concise, thoughtful, and complete Solution Canvas we can use for our final presentation.
-
 ```
 
-# Step 7: Creating a communication plan
-
-Task 7.1: Get ready to share your solution. Prepare a short, compelling pitch script to present it.
+# Step 8: Creating a communication plan
+Task 8.1: Get ready to share your solution. Prepare a short, compelling pitch script to present it.
 
 What’s a pitch? A **pitch** is a concise, compelling presentation designed to introduce an idea, product, or service and persuade an audience to take a desired action. It's about distilling complex information into a short, engaging story that captures attention and generates interest.
 
@@ -231,7 +248,7 @@ Context:
 ```
 
 
-Task 7.2: Create a visual presentation using Gamma.
+Task 8.2: Create a visual presentation using Gamma.
 
 Go to [**Gamma**](https://gamma.app) and enter a brief description of your project. The platform will automatically generate an editable presentation for you.
 
@@ -261,7 +278,7 @@ Closing – End with a strong, memorable statement.
 ```
 
 
-Task 7.3: Now that your pitch is ready, it's time to turn it into a podcast to help share and spread your work more widely.
+Task 8.3: Now that your pitch is ready, it's time to turn it into a podcast to help share and spread your work more widely.
 
 ```
 We’ve written a 3-minute pitch script for a presentation about our student-led solution to a social challenge faced by an institution. Help us turn this script into a podcast episode that sounds natural, engaging, and concise.
